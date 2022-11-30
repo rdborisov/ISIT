@@ -20,16 +20,13 @@ papa = input('Что пьет папа:')
 dict_encode = {'ч':0,'к':1}
 
 def drink_by_knn(train_df, new_object, k=5, type_norm=2):
-    help_dict = {0: 'Чай', 1: 'Кофе'}
-
-    train_df['dist'] = (np.linalg.
-                                          norm(train_df.drop(columns=['К/Ч']) - new_object,
+    help_dict = {0: 'ЧАЙ', 1: 'КОФЕ'}
+    train_df['dist'] = (np.linalg.norm(train_df.drop(columns=['К/Ч']) - new_object,
                                                ord=type_norm, axis=1))
-
     answer = train_df.sort_values('dist').iloc[:k]['К/Ч'].value_counts().index.tolist()[0]
-    return f'Человек предпочитает {help_dict[answer]}'
+    return f'Человек предпочитает: {help_dict[answer]}'
+
 test_data = np.array([time_sleep,work,weight,height,distance,
                       dict_encode[mama.lower()],dict_encode[papa.lower()]])
 print(drink_by_knn(df,test_data))
-print('Самое близкое расстояние',sorted(df.dist)[0])
-print(df.sort_values(by='dist'))
+print('Минимальное расстояние: ',sorted(df.dist)[0])
