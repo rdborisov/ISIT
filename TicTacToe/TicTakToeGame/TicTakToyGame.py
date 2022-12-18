@@ -45,8 +45,8 @@ class Game:
         return free
 
     def isDraw(self):
-        free = self.getFree();
-        return len(free) == 0;
+        free = self.getFree()
+        return len(free) == 0
 
     def isWin(self, side):
         for i in range(3):

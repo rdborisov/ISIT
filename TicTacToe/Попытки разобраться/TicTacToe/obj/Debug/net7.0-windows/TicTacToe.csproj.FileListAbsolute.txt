@@ -1,5 +1,0 @@
-A:\!Documents\Education_MIREA\1 Семестр\Интеллектуальные системы и технологии\Практика\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.csproj.AssemblyReference.cache
-A:\!Documents\Education_MIREA\1 Семестр\Интеллектуальные системы и технологии\Практика\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\MainWindow.g.cs
-A:\!Documents\Education_MIREA\1 Семестр\Интеллектуальные системы и технологии\Практика\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\App.g.cs
-A:\!Documents\Education_MIREA\1 Семестр\Интеллектуальные системы и технологии\Практика\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe_MarkupCompile.cache
-A:\!Documents\Education_MIREA\1 Семестр\Интеллектуальные системы и технологии\Практика\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe_MarkupCompile.lref
